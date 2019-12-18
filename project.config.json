@@ -1,0 +1,253 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.1",
+	"appid": "wx9dd6bc8b32ac2723",
+	"projectname": "wx_book_tiny",
+	"miniprogramRoot": "dist/wx/",
+	"cloudfunctionTemplateRoot": "",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 16,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/joinClass/main",
+					"pathName": "pages/joinClass/main",
+					"query": "classId=521",
+					"scene": 1044
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/personalpackage/personalpage/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "错题报告",
+					"pathName": "pages/personalpackage/questionReport/main",
+					"query": "isShowHome=false&classId=4477684596443136&childName=阿威十八式",
+					"scene": 1014
+				},
+				{
+					"id": 17,
+					"name": "邀请",
+					"pathName": "pages/personalpackage/inviteparent/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "错题本",
+					"pathName": "pages/bookpackage/book/main",
+					"query": "showHome=true",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "主动加入班级",
+					"pathName": "pages/personalpackage/joinClassByTeacher/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "绑定子女",
+					"pathName": "pages/personalpackage/bindchildMain/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加错题",
+					"pathName": "pages/addquestion/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "错题详情页",
+					"pathName": "pages/bookpackage/videoInterPretation/main",
+					"query": "wrongId= 206225",
+					"scene": 1043,
+					"referrerInfo": {}
+				},
+				{
+					"id": 13,
+					"name": "错题报告",
+					"pathName": "pages/personalpackage/questionReport/main",
+					"query": "childName=张晶晶&isShowHome=true&",
+					"scene": 1001
+				},
+				{
+					"id": 37,
+					"name": "公众号加入班级",
+					"pathName": "pages/personalpackage/joinClass/main",
+					"query": "ownerName=二十六老师&chclass=7年26班&classId=111",
+					"scene": 1012
+				},
+				{
+					"id": -1,
+					"name": "添加子女",
+					"pathName": "pages/personalpackage/bindchildMain/main",
+					"query": "ownerName=二十六老师&chclass=7年26班&classId=112",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "拍照历史",
+					"pathName": "pages/personalpackage/historicalRecords/main",
+					"query": "wrongId=23577",
+					"scene": null
+				},
+				{
+					"id": 18,
+					"name": "拍摄视频",
+					"pathName": "pages/mainpackage/takeVideo/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提交界面",
+					"pathName": "pages/pageList/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 16,
+					"name": "错题详情",
+					"pathName": "pages/bookpackage/videoInterPretation/main",
+					"query": "qid=202477",
+					"scene": null
+				},
+				{
+					"id": 25,
+					"name": "授权",
+					"pathName": "pages/mainpackage/authorizePage/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 29,
+					"name": "错题详情网页端",
+					"pathName": "pages/bookpackage/videoInterPretation1/main",
+					"query": "qid=139958& hidehander=true",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新拍照",
+					"pathName": "pages/takephoto/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 31,
+					"name": "图片编辑",
+					"pathName": "pages/wxcropper/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 32,
+					"name": "四个点",
+					"pathName": "pages/cropImage/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "错题标记",
+					"pathName": "pages/masterquestions/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "识别错题",
+					"pathName": "pages/addquestion/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 34,
+					"name": "测试首页授权",
+					"pathName": "pages/main/main",
+					"query": "",
+					"scene": 1035,
+					"referrerInfo": {}
+				},
+				{
+					"id": -1,
+					"name": "登陆",
+					"pathName": "pages/login/main",
+					"query": "showHome=true",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分享子女",
+					"pathName": "pages/personalpackage/shareChildCode/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "评分",
+					"pathName": "pages/mainpackage/scoreRule/main",
+					"scene": null
+				}
+			]
+		}
+	}
+}

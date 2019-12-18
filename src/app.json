@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/addquestion/main",
+    "pages/crop/main",
+    "pages/instruction/main",
+    "pages/pageList/main",
+    "pages/takephoto/main", 
+    "pages/wxcropper/main",   
+    "pages/cropImage/main",
+    "pages/joinClass/main",
+    "pages/login/main",
+    "pages/masterquestions/main"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/mainpackage/",
+      "pages": [
+        "takeVideo/main",
+        "previewVideo/main",
+        "scoreRule/main"
+      ]
+    },
+    {
+      "root": "pages/bookpackage/",
+      "pages": [
+        "book/main",
+        "printPage/main",
+        "videoInterPretation/main",
+        "videoInterPretation1/main",
+        "computer/main"
+        
+      ]
+    },
+    {
+      "root": "pages/personalpackage/",
+      "pages": [
+        "personalpage/main",
+        "joinClassByTeacher/main",
+        "shareChildCode/main",
+        "inviteparent/main",
+        "bindchildMain/main",
+        "questionReport/main",
+        "vippage/main",
+        "historicalRecords/main",
+        "historicalQuestions/main"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "咔嚓拍错题",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": { 
+
+    "request": 60000
+    
+  }
+} 
